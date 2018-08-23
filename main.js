@@ -417,7 +417,7 @@ window.onload = function () {
 
     function putSlaOnBunHandler() {
         beeld.appendChild(slagesneden);
-        slagesneden.setAttribute("position", "1.583 1.07 -1.009390250205112");
+        slagesneden.setAttribute("position", "1.583 1.08 -1");
 
         bottombun.removeEventListener('mouseenter', putSlaOnBunHandler);
 
@@ -447,14 +447,14 @@ window.onload = function () {
 
     function putTomaatOnBunHandler() {
         beeld.appendChild(tomaatgesneden);
-        tomaatgesneden.setAttribute("position", "1.493 1.06 -1.009390250205112");
+        tomaatgesneden.setAttribute("position", "1.493 1.07 -1");
 
         bottombun.removeEventListener('mouseenter', putTomaatOnBunHandler);
 
         uitlegstap12.setAttribute('visible', 'false');
         uitlegstap13.setAttribute('visible', 'true');
 
-        topbun.setAttribute('position', "1.5809927105652637 1.115 -1.0096444107167932")
+        topbun.setAttribute('position', "1.5809927105652637 1.125 -1.0096444107167932")
         topbun.setAttribute("rotation", "0 0 0");
 
         stap13();
