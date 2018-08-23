@@ -229,6 +229,8 @@ window.onload = function () {
     function burgerOnGrillHandler() {
         burger.setAttribute("visible", "false");
         burgerpointer.setAttribute("visible", "true");
+        burgerpointer.setAttribute("position", "-0.15 1.05 -0.78")
+        burgerpointer.setAttribute("scale", "0.08 -0.04 0.08")
         uitlegstap6.setAttribute('visible', 'false');
         uitlegstap7.setAttribute('visible', 'true');
         gesnedenknoflookpointer.setAttribute("visible", "true");
@@ -381,14 +383,14 @@ window.onload = function () {
     }
 
     function putOnionOnBunListener() {
-        bottombun.addEventListener('mouseenter', putOnionOnBunHandler)
+        burgerpointer.addEventListener('mouseenter', putOnionOnBunHandler)
     }
 
     function putOnionOnBunHandler() {
         beeld.appendChild(onionSlicedPointer);
         onionSlicedPointer.setAttribute("position", "1.583 1.06 -1.009390250205112");
 
-        bottombun.removeEventListener('mouseenter', putOnionOnBunHandler);
+        burgerpointer.removeEventListener('mouseenter', putOnionOnBunHandler);
 
         uitlegstap10.setAttribute('visible', 'false');
         uitlegstap11.setAttribute('visible', 'true');
@@ -412,14 +414,14 @@ window.onload = function () {
     }
 
     function putSlaOnBunListener() {
-        bottombun.addEventListener('mouseenter', putSlaOnBunHandler)
+        onionSlicedPointer.addEventListener('mouseenter', putSlaOnBunHandler)
     }
 
     function putSlaOnBunHandler() {
         beeld.appendChild(slagesneden);
         slagesneden.setAttribute("position", "1.583 1.08 -1");
 
-        bottombun.removeEventListener('mouseenter', putSlaOnBunHandler);
+        onionSlicedPointer.removeEventListener('mouseenter', putSlaOnBunHandler);
 
         uitlegstap11.setAttribute('visible', 'false');
         uitlegstap12.setAttribute('visible', 'true');
@@ -442,14 +444,14 @@ window.onload = function () {
     }
 
     function putTomaatOnBunListener() {
-        bottombun.addEventListener('mouseenter', putTomaatOnBunHandler)
+        slagesneden.addEventListener('mouseenter', putTomaatOnBunHandler)
     }
 
     function putTomaatOnBunHandler() {
         beeld.appendChild(tomaatgesneden);
         tomaatgesneden.setAttribute("position", "1.493 1.07 -1");
 
-        bottombun.removeEventListener('mouseenter', putTomaatOnBunHandler);
+        slagesneden.removeEventListener('mouseenter', putTomaatOnBunHandler);
 
         uitlegstap12.setAttribute('visible', 'false');
         uitlegstap13.setAttribute('visible', 'true');
