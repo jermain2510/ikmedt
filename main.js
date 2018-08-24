@@ -231,6 +231,7 @@ window.onload = function () {
         burgerpointer.setAttribute("visible", "true");
         burgerpointer.setAttribute("position", "-0.15 1.05 -0.78")
         burgerpointer.setAttribute("scale", "0.08 -0.04 0.08")
+        HamburgerSoundGril.play()
         uitlegstap6.setAttribute('visible', 'false');
         uitlegstap7.setAttribute('visible', 'true');
         gesnedenknoflookpointer.setAttribute("visible", "true");
@@ -319,7 +320,6 @@ window.onload = function () {
 
     function burgerToBunPickUpHandler() {
         console.log("Burger oppakken")
-        HamburgerSoundGril.play()
 
         camera.appendChild(burgerpointer);
         camera.appendChild(gesnedenknoflookpointer);
