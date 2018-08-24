@@ -1,10 +1,14 @@
 stappen:
-1. Pak het mes
-2. Snij de ui, tomaat en gem sla
-3. Snij de zwarte knoflook zo fijn mogelijk
-4. Leg het mes neer
-5. Plaats de zwarte knoflook samen met de zwarte knoflook in een schaal
-6. Kneed het gehakt en de zwarte knoflook
-7. Maak een hamburger van het gehakt
-8. Plaats de hamburger op de gril
-9. Leg een plak klaas op de hamburger
+Stap1: Pak het mes
+Stap2: Snij de ui, gem sla en tomaat in plakken
+Stap3: Snij de zwarte knoflook zo fijn mogelijk
+Stap4: Leg het mes terug
+Stap5: Stop de knoflook in de hamburger en pak deze op
+Stap6: Plaats de hamburger op de grill
+Stap7: Pak de pan en zet deze op het fornuis
+Stap8: Gooi de ui in de pan en zet het vuur aan (Rode knop)
+Stap9: Plaats de hamburger op het broodje
+Stap10: Zet het vuur uit en doe de ui op het broodje
+Stap11: Doe de sla op het broodje
+Stap12: Doe de tomaat op het broodje en doe de deksel erop
+Stap13: Eetsmakelijk!
